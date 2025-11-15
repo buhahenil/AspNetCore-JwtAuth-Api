@@ -63,7 +63,7 @@ User_Auth/
 
 ## 🛠️ Setup Instructions
 
-### 1️⃣ Install Dependencies
+## 1️⃣ Install Dependencies
 
 Install required NuGet packages:
 
@@ -72,11 +72,9 @@ Install-Package Microsoft.EntityFrameworkCore.Tools
 Install-Package Microsoft.AspNetCore.Authentication.JwtBearer
 Install-Package Swashbuckle.AspNetCore
 
----
-
 ### 2️⃣ Configure Database & JWT in `appsettings.json`
 
-```json
+***json
 {
   "ConnectionStrings": {
     "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=UserAuthDb;Trusted_Connection=True;"
@@ -214,14 +212,3 @@ API versioning
 🏁 Conclusion
 This project delivers a clean and scalable JWT authentication system using ASP.NET Core Web API and EF Core.
 Easily extend it with additional modules such as products, categories, orders, admin roles, etc.
-
-✅ This is the **final, clean, ready-to-upload README.md file**.  
-If you want, I can also create:
-
-- `LICENSE` file  
-- `.gitignore` file  
-- Repo tags & topics  
-- Project logo/banner  
-- A full GitHub description section  
-
-Just tell me!
